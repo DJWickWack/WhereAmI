@@ -1,0 +1,22 @@
+IT
+A/P
+Bathroom
+Break
+Conference - Large
+Conference - Purple
+Conference - Small
+Doc Ctrl
+Engineering
+Facilities
+Gazebo
+Home
+HR
+Machine Shop
+Production Floor
+Sales
+Sample Room
+Server Room
+Storage
+Tool Crib
+Warehouse
+WIP

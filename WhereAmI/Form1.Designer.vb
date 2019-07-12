@@ -60,7 +60,7 @@ Partial Class WhereAmINow
         Me.lb_User2_Place.BackColor = System.Drawing.Color.Silver
         Me.lb_User2_Place.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lb_User2_Place.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User2_Place.Location = New System.Drawing.Point(905, 44)
+        Me.lb_User2_Place.Location = New System.Drawing.Point(842, 44)
         Me.lb_User2_Place.Margin = New System.Windows.Forms.Padding(0)
         Me.lb_User2_Place.Name = "lb_User2_Place"
         Me.lb_User2_Place.Size = New System.Drawing.Size(265, 35)
@@ -71,7 +71,7 @@ Partial Class WhereAmINow
         'lb_User2
         '
         Me.lb_User2.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User2.Location = New System.Drawing.Point(905, 9)
+        Me.lb_User2.Location = New System.Drawing.Point(842, 9)
         Me.lb_User2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lb_User2.Name = "lb_User2"
         Me.lb_User2.Size = New System.Drawing.Size(265, 35)
@@ -106,8 +106,8 @@ Partial Class WhereAmINow
         'WhereAmINow
         '
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.AutoSize = True
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
@@ -126,11 +126,8 @@ Partial Class WhereAmINow
         Me.MaximumSize = New System.Drawing.Size(1920, 89)
         Me.MinimumSize = New System.Drawing.Size(1918, 89)
         Me.Name = "WhereAmINow"
-        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "WhereAmINow"
         Me.TopMost = True
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
 
     End Sub

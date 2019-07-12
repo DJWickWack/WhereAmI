@@ -72,4 +72,8 @@
     Private Sub Lb_User2_Place_Click(sender As Object, e As EventArgs) Handles lb_User2_Place.Click
 
     End Sub
+
+    Private Sub Lb_User3_Place_Click(sender As Object, e As EventArgs) Handles lb_User3_Place.Click
+
+    End Sub
 End Class

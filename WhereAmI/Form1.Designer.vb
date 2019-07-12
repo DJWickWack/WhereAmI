@@ -96,7 +96,7 @@ Partial Class WhereAmINow
         '
         Me.lb_User3.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lb_User3.Location = New System.Drawing.Point(1655, 9)
-        Me.lb_User3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lb_User3.Margin = New System.Windows.Forms.Padding(0)
         Me.lb_User3.Name = "lb_User3"
         Me.lb_User3.Size = New System.Drawing.Size(265, 35)
         Me.lb_User3.TabIndex = 5
@@ -113,6 +113,7 @@ Partial Class WhereAmINow
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1920, 89)
+        Me.ControlBox = False
         Me.Controls.Add(Me.lb_User3)
         Me.Controls.Add(Me.lb_User3_Place)
         Me.Controls.Add(Me.lb_User2)
@@ -121,9 +122,11 @@ Partial Class WhereAmINow
         Me.Controls.Add(Me.lb_User1_Place)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MaximumSize = New System.Drawing.Size(1920, 89)
+        Me.MinimumSize = New System.Drawing.Size(1918, 89)
         Me.Name = "WhereAmINow"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "WhereAmINow"
         Me.TopMost = True

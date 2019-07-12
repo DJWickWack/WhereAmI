@@ -61,4 +61,15 @@
         R.Close()
     End Function
 
+    Private Sub Lb_User1_Click(sender As Object, e As EventArgs) Handles lb_User1.Click
+
+    End Sub
+
+    Private Sub Lb_User1_Place_Click(sender As Object, e As EventArgs) Handles lb_User1_Place.Click
+
+    End Sub
+
+    Private Sub Lb_User2_Place_Click(sender As Object, e As EventArgs) Handles lb_User2_Place.Click
+
+    End Sub
 End Class

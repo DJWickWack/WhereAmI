@@ -36,7 +36,7 @@ Partial Class WhereAmINow
         Me.lb_User1_Place.BackColor = System.Drawing.Color.Silver
         Me.lb_User1_Place.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lb_User1_Place.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User1_Place.Location = New System.Drawing.Point(22, 41)
+        Me.lb_User1_Place.Location = New System.Drawing.Point(0, 45)
         Me.lb_User1_Place.Margin = New System.Windows.Forms.Padding(0)
         Me.lb_User1_Place.Name = "lb_User1_Place"
         Me.lb_User1_Place.Size = New System.Drawing.Size(265, 35)
@@ -47,7 +47,7 @@ Partial Class WhereAmINow
         'lb_User1
         '
         Me.lb_User1.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User1.Location = New System.Drawing.Point(22, 6)
+        Me.lb_User1.Location = New System.Drawing.Point(0, 10)
         Me.lb_User1.Margin = New System.Windows.Forms.Padding(0)
         Me.lb_User1.Name = "lb_User1"
         Me.lb_User1.Size = New System.Drawing.Size(265, 35)
@@ -60,7 +60,7 @@ Partial Class WhereAmINow
         Me.lb_User2_Place.BackColor = System.Drawing.Color.Silver
         Me.lb_User2_Place.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lb_User2_Place.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User2_Place.Location = New System.Drawing.Point(613, 41)
+        Me.lb_User2_Place.Location = New System.Drawing.Point(905, 44)
         Me.lb_User2_Place.Margin = New System.Windows.Forms.Padding(0)
         Me.lb_User2_Place.Name = "lb_User2_Place"
         Me.lb_User2_Place.Size = New System.Drawing.Size(265, 35)
@@ -71,7 +71,7 @@ Partial Class WhereAmINow
         'lb_User2
         '
         Me.lb_User2.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User2.Location = New System.Drawing.Point(613, 6)
+        Me.lb_User2.Location = New System.Drawing.Point(905, 9)
         Me.lb_User2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lb_User2.Name = "lb_User2"
         Me.lb_User2.Size = New System.Drawing.Size(265, 35)
@@ -84,7 +84,7 @@ Partial Class WhereAmINow
         Me.lb_User3_Place.BackColor = System.Drawing.Color.Silver
         Me.lb_User3_Place.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lb_User3_Place.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User3_Place.Location = New System.Drawing.Point(1143, 41)
+        Me.lb_User3_Place.Location = New System.Drawing.Point(1655, 44)
         Me.lb_User3_Place.Margin = New System.Windows.Forms.Padding(0)
         Me.lb_User3_Place.Name = "lb_User3_Place"
         Me.lb_User3_Place.Size = New System.Drawing.Size(265, 35)
@@ -95,7 +95,7 @@ Partial Class WhereAmINow
         'lb_User3
         '
         Me.lb_User3.Font = New System.Drawing.Font("Calibri", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_User3.Location = New System.Drawing.Point(1143, 6)
+        Me.lb_User3.Location = New System.Drawing.Point(1655, 9)
         Me.lb_User3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lb_User3.Name = "lb_User3"
         Me.lb_User3.Size = New System.Drawing.Size(265, 35)
@@ -106,9 +106,11 @@ Partial Class WhereAmINow
         'WhereAmINow
         '
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.AutoSize = True
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
@@ -122,11 +124,11 @@ Partial Class WhereAmINow
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(1920, 89)
         Me.Name = "WhereAmINow"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "WhereAmINow"
+        Me.TopMost = True
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
 
